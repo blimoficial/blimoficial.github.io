@@ -393,7 +393,7 @@ h3{
   background: lightgoldenrodyellow;
   width: 10vw;
   height: 10vw;
-  border-radius: 10px;
+  border-radius: 100%;
   margin-left: 20%;
   margin-top: 5%;
   float: left;
