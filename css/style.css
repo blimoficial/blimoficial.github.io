@@ -408,6 +408,7 @@ h3{
 .img-icone{
   width: 100%;
   height: 100%;
+  border-radius: 100%;
 }
 .copy{
   width: 100%;
