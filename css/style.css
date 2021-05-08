@@ -54,7 +54,7 @@ body{
 .nav-menu{
   background: pink;
   width: 99vw;
-  height: 45vw;
+  height: 40vw;
   position: fixed;
   left: .5vw;
   top: -40vw;
