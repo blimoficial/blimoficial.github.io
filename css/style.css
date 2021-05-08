@@ -179,10 +179,10 @@ body{
   }
 }
 .conteudo{
-  background: ;
+  background: re;
   width: 100vw;
   height: 2200vw;
-  margin-top: 100vw;
+  margin-top: -24vw;
   position: relative;
 }
 .card{
@@ -192,7 +192,7 @@ body{
   margin: .5vw;
   float: left;
   position: relative;
-  margin-top: 20vw;
+  margin-top: 15vw;
   border-radius: 5px 5px 0 0;
 }
 
@@ -318,7 +318,7 @@ body{
 }
 .h2-h2{
   position: relative;
-  top: 13vw;
+  top: 16vw;
   left: 3vw;
   background: ;
   width: 90%;
@@ -327,18 +327,18 @@ body{
 }
 .h3-h3{
   position: relative;
-  top: 6vw;
+  top: 8vw;
   left: 3vw;
   font-size: 3.5vw;
   background: ;
   width: 90%;
 }
 #h2-2{
-  top: -8vw;
+  top: -4vw;
   font-family: 'Sacramento';
 }
 #h3-3{
-  top: -15vw;
+  top: -12vw;
 }
 h2{
   font-family: courier;
