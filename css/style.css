@@ -158,20 +158,20 @@ body{
     transform: translateX(0);
   }
   35%{
-    transform: translateX(0);
+    transform: translateX(-100vw);
   }
   50%{
     transform: translateX(-100vw);
   }
   65%{
-    transform: translateX(-100vw);
+    transform: translateX(-200vw);
   }
   75%{
-    transform: translateX(100vw);
+    transform: translateX(-200vw);
     
   }
   85%{
-    transform: translate(100vw);
+    transform: translate(-100vw);
   }
   100%{
     margin-left: 0;
