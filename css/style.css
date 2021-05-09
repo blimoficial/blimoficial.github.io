@@ -209,7 +209,7 @@ body{
   position: absolute;
   z-index: 7;
 }
-.card:hover .descricao{
+card:hover .descricao{
   display: block;
   top: 40vw;
 }
