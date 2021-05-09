@@ -209,7 +209,7 @@ body{
   position: absolute;
   z-index: 7;
 }
-card:hover .descricao{
+.card:hover .descricao{
   display: block;
   top: 40vw;
 }
@@ -254,7 +254,7 @@ card:hover .descricao{
   z-index: ;
   transition-delay: 3s;
 }
-card:hover .img-card{
+.card:hover .img-card{
   top: -2.5vw;
 }
 .btn-ver:hover~ .img-card{
