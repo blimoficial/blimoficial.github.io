@@ -107,7 +107,7 @@ body{
 .banner{
   background: transparent;
   width: 100vw;
-  height: 95vw;
+  height: 100vh;
   position: relative;
   top: 15vw;
   filter: grayscale(50%);
