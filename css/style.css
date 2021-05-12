@@ -256,17 +256,10 @@ body{
   transition-delay: 3s;
 }
 .card:hover .img-card{
-  top: -2.5vw;
+  
 }
 .btn-ver:hover~ .img-card{
-  width: 100vw;
-  left: 0vw;
-  height: 80vw;
-  position: fixed;
-  top: 15vw;
-  border-radius: 0;
-  z-index: 8;
-  border-bottom: 100vh solid rgba(0,0,0,.5);
+  
 }
 .btn-ver:hover~ .button-pedir{
   z-index: 9;
