@@ -60,7 +60,7 @@ body{
   top: -40vw;
   z-index: 8;
   transition: .4s;
-  box-shadow: 0px 3px 5px rgba(0,0,0,.5);
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 .ul-menu{
   width: 100%;
@@ -180,134 +180,119 @@ body{
   }
 }
 .conteudo{
-  background: re;
+  background: white;
   width: 100vw;
-  height: 2210vw;
-  margin-top: -24vw;
-  position: relative;
+  height: 2000vw;
 }
 .card{
   background: lightgoldenrodyellow;
-  width: 49vw;
-  height: 60vw;
-  margin: .5vw;
+  width: 46vw;
+  height: 70vw;
   float: left;
+  margin: 2vw;
+  margin-bottom: 11vw;
   position: relative;
-  margin-top: 15vw;
-  border-radius: 5px 5px 0 0;
-  z-index: ;
+}
+.btn-ver:hover~ .img-card{
+  width: 100vw;
+  height: 110vw;
+  left: 0;
+  top: 15vw;
+  position: fixed;
+  z-index: 3;
+  transition: .4s;
+  border-bottom: 100vw solid rgba(0,0,0,.8);
 }
 
 .img-card{
-  width: 100%;
-  height: 69%;
-  position: relative;
-  transition: .3s;
-  z-index: ;
-  box-shadow:  1px 1px 3px rgba(0,0,0,.5);
-  border-radius: 5px;
-  top: 0;
-  left: 0;
+  width: 46vw;
+  height: 46vw;
   position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 .card:hover .descricao{
-  display: block;
-  top: 40vw;
-  z-index: 7;
+  margin-top: 101%;
+  transition: .5s;
+  z-index: 1;
 }
-
 .descricao{
-  background: pink;
+  background: lightpink;
   width: 100%;
-  height: 50%;
+  height: 45%;
   position: absolute;
+  border-radius: 5px;
+  font-size: 3.5vw;
+  font-family: 'roboto';
   text-align: center;
-  font-family: 'Roboto';
-  font-weight: normal;
-  padding-top: 2vw;
-  color: white;
-  font-size: 3vw;
-  line-height: 7vw;
-  border-radius: 10px 10px 0 0;
-  transition: 1s;
-  top: 0;
-  display: none;
+  line-height: 22px;
+  padding-top: 3vw;
 }
 
 .btn-ver{
-  background: lightgoldenrodyellow;
-  width: 20vw;
+  position: absolute; 
+  top: 72vw;
+  right: 19vw;
+  display: none;
+  width: 10vw;
   height: 8vw;
-  position: absolute;
   border: none;
   border-radius: 5px;
-  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
   font-size: 4vw;
-  font-family: arial;
-  left: 14vw;
-  top: 0;
-  z-index: ;
-  display: none;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+  background: lightgoldenrodyellow;
 }
+
 .card:hover .btn-ver{
-  top: 63vw;
   display: block;
-  z-index: 8;
-  transition-delay: 3s;
+  z-index: 3;
+  transition: .4s;
 }
-.card:hover .img-card{
-  
-}
-.btn-ver:hover~ .img-card{
-  
+.card:hover~ .btn-ver{
+  color: red;
 }
 .btn-ver:hover~ .button-pedir{
-  z-index: 9;
+  position: fixed;
+  top: 145vw;
+  left: 38vw;
   display: block;
 }
-.a-pedir {
-  text-decoration: none;
-  color: black;
-  
-}
-.button-pedir{
-  position: fixed;
-  width: 20vw;
-  height: 10vw;
+.button-pedir {
   background: lightpink;
-  border: solid 3px lightgoldenrodyellow;
-  left: 40vw;
-  z-index: 1;
-  top: 100vw;
-  border-radius: 5px;
-  font-size: 4vw;
-  box-shadow: 2px 2px 4px rgba(0,0,0,.2);
-  display: none;
+  width: 25vw;
+  height: 10vw;
   color: lightgoldenrodyellow;
+  text-align: center;
+  z-index: 9;
+  position: relative;
+  top: 100vw;
+  left: 10vw;
+  display: none;
+  font-size: 5vw;
+  border: 3px solid lightgoldenrodyellow;
 }
 .nome-produto{
-  position: relative;
   width: 100%;
-  height: 25%;
-  top: 43vw;
   text-align: center;
-  font-family: arial;
-  font-weight: normal;
-  font-size: 4vw;
+  margin-top: 55vw;
   font-weight: bold;
 }
 .preco{
-  position: relative;
-  width: 100%;
-  height: 10vw;
   background: lightpink;
-  text-align: center;
-  font-size: 5vw;
-  font-family: 'sacramento';
-  font-weight: bold;
-  top: 38vw;
-  line-height: 50px;
+  width: 100%;
+  height: 15%;
+  margin-top: 16vw;
+  position: absolute;
+  top: 54.5vw;
   color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 7vw;
+  font-family: 'arial';
+  line-height: 12vw;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 .h2-h2{
   position: relative;
