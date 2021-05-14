@@ -182,7 +182,7 @@ body{
 .conteudo{
   background: plum;
   width: 100vw;
-  height: 2500vw;
+  height: 2400vw;
 }
 .card{
   background: lightgoldenrodyellow;
@@ -192,6 +192,7 @@ body{
   margin: 2vw;
   margin-bottom: 11vw;
   position: relative;
+  border-radius: 4px;
 }
 .btn-ver:hover~ .img-card{
   width: 100vw;
