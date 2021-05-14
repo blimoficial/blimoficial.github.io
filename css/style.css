@@ -180,9 +180,10 @@ body{
   }
 }
 .conteudo{
-  background: plum;
+  background: white;
   width: 100vw;
   height: 2400vw;
+  margin-top: -5vw;
 }
 .card{
   background: lightgoldenrodyellow;
